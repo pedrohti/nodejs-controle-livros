@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Livros</title>
+</head>
+<body>
+<h1>Listagem de Livros</h1>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>Título</td>
+        </tr>
+        <tr for (livro in data.livros)>
+            <td>${ livro.id }</td>
+            <td>${ livro.titulo }</td>
+        </tr>
+    </table>
+</body>
+</html>
