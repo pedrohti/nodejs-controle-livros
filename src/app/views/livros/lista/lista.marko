@@ -12,10 +12,12 @@
             <td>ID</td>
             <td>Título</td>
         </tr>
-        <tr for (livro in data.livros)>
-            <td>${ livro.id }</td>
-            <td>${ livro.titulo }</td>
-        </tr>
+        <for|livro| of=data.livros>
+            <tr>
+                <td>${ livro.id }</td>
+                <td>${ livro.titulo }</td>
+            </tr>
+        </for>
     </table>
 </body>
 </html>
